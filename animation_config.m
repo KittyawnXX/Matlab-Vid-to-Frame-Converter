@@ -24,4 +24,4 @@ eTime = toc
 averageTime = eTime / length(matrixList)
 target = 3*60 + 40
 difference = eTime - target
-disp('Done.')
+disp('Animation Done.')
