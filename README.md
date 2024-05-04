@@ -1,5 +1,5 @@
 # Matlab Video to Frame Converter by Kittyawn
-Breaks any video you want into separated Images (per Frame) and also their Matrices. So you can animate in on your Matlab Visual
+Breaks any video you want into separated Images (per Frame) and also their Matrices. So you can animate them on your Matlab Visual
 
 ## Things you need :
 * Any video u want to use, and also Matlab Image Visualizer
