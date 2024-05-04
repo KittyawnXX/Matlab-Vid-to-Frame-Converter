@@ -25,4 +25,4 @@ for i=1:length(picList)
     writematrix(logicalScaleF,mfullname,'Delimiter','tab')
 end
 
-disp('Done.')
+disp('Conversion Done.')
