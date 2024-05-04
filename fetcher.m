@@ -2,12 +2,13 @@
 % Break the video into frames
 
 workingDir =''; % DESTINATION DIRECTORY HERE
-videoDir =''; % VIDEO SOURCE HERE
+vidPath =''; % VIDEO DIRECTORY HERE
+videoFile =''; % VIDEO FILE HERE
 
-mkdir(videoDir);
+mkdir(vidPath);
 cd(workingDir);
 mkdir(workingDir, 'frames');
-video = VideoReader('C:\Users\Administrator\Documents\MATLAB\Here\bad-apple-matlab-main\bad-apple-matlab-main\videoDir\badapple.avi');
+video = VideoReader(videoFile);
 
 
 ii = 1;
