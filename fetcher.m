@@ -20,4 +20,4 @@ while hasFrame(video)
     ii = ii+1;
 end
 
-disp('Fetching Done.')
+disp('Fetching Done. Continue modifying framer.m')
