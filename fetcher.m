@@ -3,12 +3,12 @@
 
 workingDir =''; % DESTINATION DIRECTORY HERE
 vidPath =''; % VIDEO DIRECTORY HERE
-videoFile =''; % VIDEO FILE HERE
+vidFile =''; % VIDEO FILE HERE
 
 mkdir(vidPath);
 cd(workingDir);
 mkdir(workingDir, 'frames');
-video = VideoReader(videoFile);
+video = VideoReader(vidFile);
 
 
 ii = 1;
